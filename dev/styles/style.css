@@ -4,7 +4,6 @@ a {
 }
 body {
   cursor: default;
-  overflow-x: hidden !important;
 }
 a {
   cursor: pointer;
@@ -17,10 +16,77 @@ ul {
   margin: 0 !important;
   float: none !important;
 }
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.container div,
+ul {
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+}
 footer {
-  height: 300px;
   width: 100%;
   background: #0F050C;
+  color: #fff;
+}
+.footer__content {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  grid-template-rows: 50px;
+  grid-row-gap: 0px;
+  grid-column-gap: 10px;
+}
+.footer__content a,
+.footer__content a:hover {
+  color: #fff;
+}
+.footer__links li {
+  position: relative;
+  padding: 0 20px 0 0;
+  display: inline-block;
+}
+.footer__links li a {
+  font: 14px 'open_sansregular';
+  text-decoration: none;
+}
+.footer__links li a:hover {
+  text-decoration: underline;
+}
+.footer__links li:after {
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  top: 2px;
+  right: 0px;
+  display: block;
+  content: "/";
+}
+.footer__socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.footer__socials li {
+  display: inline-block;
+}
+.footer__socials li a,
+.footer__socials li a:hover {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+.footer__socials li a img,
+.footer__socials li a:hover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+p.footer__copyright {
+  font: 12px 'open_sansregular';
+  color: #F4F4FB;
 }
 /*
 LESS variables are information about icon's compiled state, stored under its original file name
