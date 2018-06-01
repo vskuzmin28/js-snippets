@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'helveticaneuecyrblack';
+    src: url('../fonts/helveticaneuecyr-black.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrblack_italic';
+    src: url('../fonts/helveticaneuecyr-blackitalic.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-blackitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url('../fonts/helveticaneuecyr-bold.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrbold_italic';
+    src: url('../fonts/helveticaneuecyr-bolditalic.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrheavy';
+    src: url('../fonts/helveticaneuecyr-heavy.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrheavy_italic';
+    src: url('../fonts/helveticaneuecyr-heavyitalic.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-heavyitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyritalic';
+    src: url('../fonts/helveticaneuecyr-italic.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('../fonts/helveticaneuecyr-light.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrlight_italic';
+    src: url('../fonts/helveticaneuecyr-lightitalic.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrmedium';
+    src: url('../fonts/helveticaneuecyr-medium.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrmedium_italic';
+    src: url('../fonts/helveticaneuecyr-mediumitaicl.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-mediumitaicl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrroman';
+    src: url('../fonts/helveticaneuecyr-roman.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrthin';
+    src: url('../fonts/helveticaneuecyr-thin.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrthin_italic';
+    src: url('../fonts/helveticaneuecyr-thinitalic.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-thinitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrultralight';
+    src: url('../fonts/helveticaneuecyr-ultralight.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-ultralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrultraLtIt';
+    src: url('../fonts/helveticaneuecyr-ultralightitalic.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-ultralightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
