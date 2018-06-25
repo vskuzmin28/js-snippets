@@ -15,6 +15,12 @@ html(lang='ru')
 
     // / header
 
+    // header
+
+    include ./blocks/block-navigation/navigation.pug
+
+    // / header
+
     // main
 
     main
@@ -165,6 +171,11 @@ html(lang='ru')
           a.icon-heart(href="#" title="")
             img(src="img/heart.svg" alt="")
 
+      // content
+
+      .container.posts
+
+        include ./blocks/block-pagination/pagination.pug
 
     // / main
 

@@ -1,0 +1,59 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='utf-8')
+    //meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name="theme-color" content="#000000")
+    title JS-SNIPPETS.COM | Main page
+    link(rel='stylesheet', href='../styles/normalize.css')
+    link(rel='stylesheet', href='../styles/style.css')
+  body
+
+    // header
+
+    include ./blocks/block-header/header.pug
+
+    // / header
+
+    // main
+
+    main
+
+      // content
+
+      .container.detail
+
+        // post
+
+        article(role="detail")
+          a.icon-tag(href="#" title="")
+            | WordPress Theme        
+          a.detail__preview(href="#" title="")
+            img(src="./img/previews/preview-9.jpg" alt="@@")
+          a.detail__title(href="#" title="")
+            | Sarto - A Multi-Concept Theme for Creative Agencies and Freelancers
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis ut quidem in deleniti, perspiciatis pariatur maiores totam, facilis, natus dolore distinctio! Quod perferendis exercitationem quae natus fuga aliquid magnam!
+
+        aside
+          
+          // rewr
+
+          ul.categories
+            li
+              a(href="#" title="")
+                | 333
+            li
+              a(href="#" title="")
+                | 333
+            li
+              a(href="#" title="")
+                | 333                
+
+    // / main
+
+    // footer
+
+    include ./blocks/block-footer/footer.pug
+
+    // footer
