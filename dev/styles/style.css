@@ -137,6 +137,20 @@ article hr {
   outline: 0;
   background: #d9d9d9;
 }
+.navigation li {
+  margin-right: 10px;
+  list-style: none;
+  display: inline-block;
+}
+.navigation li a,
+.navigation li a:hover {
+  border-radius: 4px;
+  padding: 6px;
+  background: #d9d9d9;
+  font: 14px 'open_sansregular';
+  color: #0F050C;
+  text-decoration: none;
+}
 footer {
   width: 100%;
   background: #0F050C;
@@ -225,15 +239,22 @@ header {
   background: #0F050C;
   color: #fff;
 }
-header {
-  padding: 16px 0 20px 0;
-  width: 100%;
-  background: #0F050C;
-  color: #fff;
+.pagination li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
 }
-header {
-  padding: 16px 0 20px 0;
-  width: 100%;
+.pagination li a,
+.pagination li a:hover {
+  padding: 6px 8px;
+  background: #d9d9d9;
+  font: 14px 'open_sansregular';
+  color: #0F050C;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.pagination li a:hover,
+.pagination li a:hover:hover {
   background: #0F050C;
   color: #fff;
 }
