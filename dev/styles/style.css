@@ -48,11 +48,16 @@ article hr {
   outline: 0;
   background: #d9d9d9;
 }
+article ul {
+  margin-left: 20px;
+}
 article ul li {
-  list-style: none;
-  font: 12px 'open_sansregular';
-  font-style: italic;
+  list-style: disc;
+  font: 14px 'open_sansregular';
   color: #000;
+}
+.posts__detail {
+  height: auto;
 }
 .posts__title {
   margin: 0;
@@ -143,19 +148,43 @@ article ul li {
   outline: 0;
   background: #d9d9d9;
 }
-.navigation li {
-  margin-right: 10px;
+.rating li {
+  margin-right: 4px;
   list-style: none;
   display: inline-block;
 }
-.navigation li a,
-.navigation li a:hover {
-  border-radius: 4px;
-  padding: 6px;
-  background: #d9d9d9;
+.rating li a,
+.rating li a:hover {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: #000;
+  border-radius: 50%;
+}
+.price span {
+  display: inline-block;
+  font: 24px 'open_sansbold';
+}
+.price p {
+  display: inline-block;
+  font: 14px 'open_sansregular';
+}
+.date-published p {
+  font: 14px 'open_sansregular';
+  color: #d9d9d9;
+}
+.tags li {
+  list-style: none;
+  display: inline-block;
+}
+.tags li a,
+.tags li a:hover {
+  padding: 4px 8px;
+  background: #d8d8d8;
   font: 14px 'open_sansregular';
   color: #0F050C;
   text-decoration: none;
+  border-radius: 4px;
 }
 footer {
   width: 100%;
@@ -244,6 +273,20 @@ header {
   width: 100%;
   background: #0F050C;
   color: #fff;
+}
+.navigation li {
+  margin-right: 10px;
+  list-style: none;
+  display: inline-block;
+}
+.navigation li a,
+.navigation li a:hover {
+  border-radius: 4px;
+  padding: 6px;
+  background: #d9d9d9;
+  font: 14px 'open_sansregular';
+  color: #0F050C;
+  text-decoration: none;
 }
 .pagination li {
   list-style: none;
