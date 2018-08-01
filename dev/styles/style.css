@@ -120,6 +120,9 @@ article ul li {
   line-height: auto;
   text-decoration: none;
 }
+.posts__detail p {
+  color: #d9d9d9;
+}
 .detail {
   max-width: 1220px;
   display: grid;
@@ -176,6 +179,11 @@ article ul li {
   font: 14px 'open_sansregular';
   color: #d9d9d9;
 }
+.title__small_bold p {
+  margin-bottom: -4px;
+  font: 14px 'open_sansbold';
+  color: #0F050C;
+}
 .tags {
   margin-left: 0;
 }
@@ -191,6 +199,11 @@ article ul li {
   color: #0F050C;
   text-decoration: none;
   border-radius: 4px;
+}
+.tags li a:hover,
+.tags li a:hover:hover {
+  background: #0F050C;
+  color: #fff;
 }
 footer {
   width: 100%;
