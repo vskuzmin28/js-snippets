@@ -88,10 +88,15 @@ article ul li {
   height: auto;
 }
 .posts__button-preview {
-  background: #fff;
+  background: #3CB46C !important;
+  color: #fff !important;
+  border-radius: 4px !important;
+  border: 1px solid #3CB46C !important;
 }
 .posts__button-preview:hover {
-  border-color: #3CB46C;
+  border: 1px solid #3CB46C !important;
+  background: #F4F4FB !important;
+  color: #0F050C !important;
 }
 .icon-share {
   margin-top: 4px;
@@ -224,7 +229,7 @@ article ul li {
 }
 footer {
   width: 100%;
-  background: url('../img/bg.jpg') no-repeat center;
+  background: url('../img/bg.png') no-repeat center;
   background-size: cover;
   color: #fff;
   height: auto;
@@ -310,13 +315,6 @@ p.footer__copyright {
   font: 12px 'open_sansregular';
   color: #F4F4FB;
 }
-header {
-  padding: 16px 0 20px 0;
-  width: 100%;
-  background: url('../img/bg.jpg') no-repeat center top;
-  background-size: cover;
-  color: #fff;
-}
 .navigation {
   padding: 10px 0;
 }
@@ -339,6 +337,13 @@ header {
   background: #d9d9d9;
   color: #0F050C;
 }
+header {
+  padding: 16px 0 20px 0;
+  width: 100%;
+  background: url('../img/bg.png') no-repeat center top;
+  background-size: cover;
+  color: #fff;
+}
 .pagination li {
   list-style: none;
   display: inline-block;
@@ -359,6 +364,16 @@ header {
   background: #0F050C;
   color: #fff;
 }
+.pagination__next,
+.pagination__prev {
+  margin: 0;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+.pagination__prev {
+  transform: rotate(-180deg);
+}
 .search-informer {
   padding: 40px 0;
   display: grid;
@@ -375,6 +390,42 @@ header {
 }
 .search-informer p {
   font: 16px 'open_sansregular';
+}
+.search {
+  margin: 40px 0 10px 0;
+  display: grid;
+  justify-items: center;
+}
+.search form {
+  position: relative;
+  width: 600px;
+  height: 60px;
+}
+.search form input[type="text"] {
+  font: 18px 'open_sansregular';
+  color: #0F050C;
+  padding: 0 14px;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  border: 0;
+  border-radius: 4px !important;
+  outline: 0;
+}
+.search form button {
+  top: 16px;
+  right: -14px;
+  position: absolute;
+  border: 0;
+  outline: 0;
+  background: 0;
+  cursor: pointer;
+}
+.search form button img {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: 0;
 }
 /*
 LESS variables are information about icon's compiled state, stored under its original file name
