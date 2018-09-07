@@ -1,5 +1,6 @@
 @import '../styles/fonts.css';
-a {
+a,
+article {
   transition: all 0.5s ease-in-out;
 }
 body {
@@ -38,6 +39,11 @@ article {
   padding: 16px;
   width: auto;
   background: #fff;
+}
+article:hover {
+  -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.1);
 }
 article hr {
   margin: 16px 0;
@@ -87,12 +93,12 @@ article ul li {
 .posts__button-preview:hover {
   border-color: #3CB46C;
 }
-.icon-heart {
+.icon-share {
   margin-top: 4px;
   display: block;
   float: right;
 }
-.icon-heart img {
+.icon-share img {
   padding: 0;
   margin: 0;
   display: block;
@@ -218,7 +224,8 @@ article ul li {
 }
 footer {
   width: 100%;
-  background: #0F050C;
+  background: url('../img/bg.jpg') no-repeat center;
+  background-size: cover;
   color: #fff;
   height: auto;
   padding-bottom: 10px;
@@ -228,7 +235,9 @@ footer {
 }
 .footer__topbar {
   padding: 20px 0 30px 0;
-  text-align: right;
+}
+.footer__logo {
+  text-align: left;
 }
 .logo {
   color: #fff;
@@ -239,7 +248,7 @@ footer {
   color: #3CB46C;
 }
 .logo-line {
-  margin: 26px 0 -10px -4px;
+  margin: 24px 0 -10px 0;
   width: 32%;
   height: 1px;
   background: #3CB46C;
@@ -304,7 +313,8 @@ p.footer__copyright {
 header {
   padding: 16px 0 20px 0;
   width: 100%;
-  background: #0F050C;
+  background: url('../img/bg.jpg') no-repeat center top;
+  background-size: cover;
   color: #fff;
 }
 .navigation {
@@ -319,10 +329,15 @@ header {
 .navigation li a:hover {
   border-radius: 4px;
   padding: 8px;
-  background: #d9d9d9;
+  background: #3CB46C;
+  color: #fff;
   font: 14px 'open_sansregular';
-  color: #0F050C;
   text-decoration: none;
+}
+.navigation li a:hover,
+.navigation li a:hover:hover {
+  background: #d9d9d9;
+  color: #0F050C;
 }
 .pagination li {
   list-style: none;
@@ -333,16 +348,33 @@ header {
 .pagination li a:hover {
   margin: 0 2px;
   padding: 6px 12px;
-  background: #d9d9d9;
-  font: 14px 'open_sansregular';
-  color: #0F050C;
-  text-decoration: none;
+  background: #3CB46C;
+  color: #fff;
   border-radius: 4px;
+  font: 14px 'open_sansregular';
+  text-decoration: none;
 }
 .pagination li a:hover,
 .pagination li a:hover:hover {
   background: #0F050C;
   color: #fff;
+}
+.search-informer {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  background: url('../img/bg-search.png') no-repeat center top;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.search-informer h2 {
+  margin: 10px 0;
+  padding: 0;
+  font: 32px 'open_sansbold';
+}
+.search-informer p {
+  font: 16px 'open_sansregular';
 }
 /*
 LESS variables are information about icon's compiled state, stored under its original file name
